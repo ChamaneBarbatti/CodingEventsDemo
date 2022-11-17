@@ -19,7 +19,7 @@ namespace CodingEventsDemo.ViewModels
         [Required(ErrorMessage = "Location information is required.")]
         public string Location { get; set; }
 
-       // test public bool IsTrue { get { return true; } }
+        public bool IsTrue { get { return true; } }
 
         [Compare("IsTrue", ErrorMessage = "Registration is required.")]
         public bool RegistrationRequired { get; set; }
